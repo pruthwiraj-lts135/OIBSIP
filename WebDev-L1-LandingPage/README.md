@@ -30,10 +30,7 @@ WebDev-L1-LandingPage/
 ## 🚀 How to Run
 1. Download or clone the repository.
 2. Open the project folder.
-3. Open `index.html` in any modern web browser.
-
-## 📸 Screenshots
-(Add screenshots of your landing page here.)
+3. Open `index.html` in any modern web browser
 
 ## 👨‍💻 Developed By
 **Pruthwiraj Patra**
