@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIBSIP Projects | Pruthwiraj Patra</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            min-height:100vh;
+            background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:40px;
+        }
+
+        .container{
+            width:100%;
+            max-width:1100px;
+            text-align:center;
+        }
+
+        h1{
+            font-size:3rem;
+            margin-bottom:10px;
+            color:#38bdf8;
+        }
+
+        h2{
+            font-weight:300;
+            margin-bottom:50px;
+            color:#d1d5db;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.08);
+            backdrop-filter:blur(15px);
+            border:1px solid rgba(255,255,255,0.15);
+            border-radius:20px;
+            padding:30px;
+            transition:.35s ease;
+        }
+
+        .card:hover{
+            transform:translateY(-10px) scale(1.03);
+            box-shadow:0 15px 35px rgba(0,0,0,.35);
+        }
+
+        .icon{
+            font-size:3rem;
+            margin-bottom:20px;
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#38bdf8;
+        }
+
+        .card p{
+            color:#e5e7eb;
+            margin-bottom:25px;
+            line-height:1.6;
+        }
+
+        a{
+            display:inline-block;
+            text-decoration:none;
+            color:white;
+            background:#2563eb;
+            padding:12px 25px;
+            border-radius:10px;
+            transition:.3s;
+        }
+
+        a:hover{
+            background:#1d4ed8;
+        }
+
+        footer{
+            margin-top:50px;
+            color:#cbd5e1;
+            font-size:.95rem;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Oasis Infobyte Internship Projects</h1>
+
+    <h2>Developed by <strong>Pruthwiraj Patra</strong></h2>
+
+    <div class="projects">
+
+        <div class="card">
+
+            <div class="icon">🌐</div>
+
+            <h3>Landing Page</h3>
+
+            <p>
+                A responsive modern landing page developed using HTML and CSS with animations and glassmorphism effects.
+            </p>
+
+            <a href="Landing-Page/index.html">
+                View Project
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">👨‍💻</div>
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                A personal portfolio showcasing skills, projects, education and contact details with responsive design.
+            </p>
+
+            <a href="Portfolio/index.html">
+                View Project
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">🌡️</div>
+
+            <h3>ThermoFlow</h3>
+
+            <p>
+                A smart temperature converter supporting Celsius, Fahrenheit and Kelvin with instant conversion.
+            </p>
+
+            <a href="ThermoFlow/index.html">
+                View Project
+            </a>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        © 2026 Pruthwiraj Patra | Oasis Infobyte Web Development Internship
+
+    </footer>
+
+</div>
+
+</body>
+</html>
