@@ -16,18 +16,18 @@
 
         body{
             font-family:'Poppins',sans-serif;
+            background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
             min-height:100vh;
-            background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
-            color:white;
             display:flex;
             justify-content:center;
             align-items:center;
+            color:white;
             padding:40px;
         }
 
         .container{
-            width:100%;
             max-width:1100px;
+            width:100%;
             text-align:center;
         }
 
@@ -37,21 +37,21 @@
             color:#38bdf8;
         }
 
-        h2{
-            font-weight:300;
+        .subtitle{
+            font-size:1.1rem;
+            color:#cbd5e1;
             margin-bottom:50px;
-            color:#d1d5db;
         }
 
-        .projects{
+        .cards{
             display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
             gap:30px;
         }
 
         .card{
             background:rgba(255,255,255,0.08);
-            backdrop-filter:blur(15px);
+            backdrop-filter:blur(16px);
             border:1px solid rgba(255,255,255,0.15);
             border-radius:20px;
             padding:30px;
@@ -60,30 +60,30 @@
 
         .card:hover{
             transform:translateY(-10px) scale(1.03);
-            box-shadow:0 15px 35px rgba(0,0,0,.35);
+            box-shadow:0 15px 35px rgba(0,0,0,.4);
         }
 
         .icon{
-            font-size:3rem;
-            margin-bottom:20px;
+            font-size:55px;
+            margin-bottom:15px;
         }
 
-        .card h3{
+        h2{
             margin-bottom:15px;
             color:#38bdf8;
         }
 
-        .card p{
-            color:#e5e7eb;
-            margin-bottom:25px;
+        p{
+            color:#e2e8f0;
             line-height:1.6;
+            margin-bottom:25px;
         }
 
         a{
-            display:inline-block;
             text-decoration:none;
-            color:white;
+            display:inline-block;
             background:#2563eb;
+            color:white;
             padding:12px 25px;
             border-radius:10px;
             transition:.3s;
@@ -94,23 +94,69 @@
         }
 
         footer{
-            margin-top:50px;
-            color:#cbd5e1;
-            font-size:.95rem;
+            margin-top:45px;
+            color:#94a3b8;
         }
     </style>
 
 </head>
+
 <body>
 
 <div class="container">
 
     <h1>Oasis Infobyte Internship Projects</h1>
 
-    <h2>Developed by <strong>Pruthwiraj Patra</strong></h2>
+    <p class="subtitle">
+        Developed by <strong>Pruthwiraj Patra</strong>
+    </p>
 
-    <div class="projects">
+    <div class="cards">
 
+        <div class="card">
+
+            <div class="icon">🌐</div>
+
+            <h2>Landing Page</h2>
+
+            <p>
+                A modern responsive landing page built using HTML and CSS with smooth animations and glassmorphism.
+            </p>
+
+            <a href="WebDev-L1-LandingPage/index.html">
+                View Project
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">🌡️</div>
+
+            <h2>ThermoFlow</h2>
+
+            <p>
+                A smart temperature converter with automatic conversion between Celsius, Fahrenheit and Kelvin.
+            </p>
+
+            <a href="WebDev-L1-TemperatureConverter/index.html">
+                View Project
+            </a>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        © 2026 Pruthwiraj Patra • Oasis Infobyte Web Development Internship
+
+    </footer>
+
+</div>
+
+</body>
+</html>
         <div class="card">
 
             <div class="icon">🌐</div>
