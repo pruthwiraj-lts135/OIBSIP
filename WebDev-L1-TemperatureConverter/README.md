@@ -52,19 +52,7 @@ ThermoFlow/
 
 ## 📸 Screenshot
 
-> Add your project screenshot here.
-
-Example:
-
-```
-images/screenshot.png
-```
-
-or
-
-```
-![ThermoFlow Screenshot](screenshot.png)
-```
+WebDev-L1-TemperatureConverter/screenshot.PNG
 
 ---
 
