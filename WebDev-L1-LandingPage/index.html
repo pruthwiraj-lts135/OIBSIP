@@ -19,37 +19,95 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <section class="hero" id="home">
+        <section class="hero reveal" id="home">
             <h1>Build Your Future With Nova Tech</h1>
             <p>Learn Web Development, AI, and Programming with our comprehensive courses.</p>
-            <a href="#" class="btn">Get Started</a>
+            <button class="nav-toggle">
+                ☰
+                <a href="#" class="btn">Get Started</a>
+            </button>
         </section>
-        <section class="about" id="about">
+        <section class="about reveal" id="about">
             <h2><b>About Us</b></h2><br/>
             <p>At Nova Tech, we believe that the future belongs to those who understand how technology works and know how to shape it. We are a next-generation edutech platform dedicated<br/>
             to bridging the gap between traditional education and the rapidly evolving demands of the modern tech industry.Whether you are a curious beginner writing your very first line of <br/>
             code, a university student looking to build a career-ready portfolio, or a seasoned professional aiming to upskill in the age of Artificial Intelligence, Nova Tech is your trusted partner <br/>
             in lifelong learning.</p>
         </section>
-        <section class="services" id="services">
+        <section class="services reveal" id="services">
             <h2>Our Services</h2><br/>
-            <div class="card">
+            <div class="cards">
+                
+            <div class="card-icon">
+                🌐
                 <br/><h3>Web Development</h3><br/>
                 <p>Learn to build responsive and dynamic websites using HTML, CSS, JavaScript, and modern frameworks.</p><br/><br/>
             </div>
-            <div class="card">
+            <div class="card-icon">
+                🤖
                 <br/><h3>Artificial Intelligence</h3><br/>
                 <p>Dive into AI and machine learning with hands-on projects and real-world applications.</p><br/><br/>
             </div>
-            <div class="card">
+            <div class="card-icon">
+                💻
                 <br/><h3>Programming</h3><br/>
                 <p>Master programming languages like Python, Java, and C++ to enhance your coding skills.</p><br/><br/> 
             </div>
+            </div>
         </section>
-        <section class="contact" id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: contact@novatech.com </p>
-            <p>Phone: +1 (123) 456-7890</p>
+        <section class="contact reveal" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p class="contact-text">
+        Have a question or want to collaborate? We'd love to hear from you.
+    </p>
+
+    <form id="contact-form">
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message..."
+                required></textarea>
+        </div>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+        <p class="form-status"></p>
+
+    </form>
+
         </section>
         <footer>
             <h3>Nova Tech </h3>
