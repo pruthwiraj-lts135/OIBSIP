@@ -16,9 +16,11 @@ html{
     height: auto;
 }
 body{
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
+    font-family:'Arial Black',sans-serif;
+    background: url("hero-bg.jpg") no-repeat center center/cover;
+    min-height: 100vh;
 }
+
 .hero{
     background-color: #f4f4f4;
     padding: 60px 20px;
