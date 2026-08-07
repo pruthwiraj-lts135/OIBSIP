@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ThermoFlow</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="container">
+                <h1 class="logo">ThermoFlow</h1>
+                <h2 class="tagline">A Smart Temperature Converter</h2><br/>
+                <div class="converter-card">
+                    <div class="input-group">
+                        <input
+                            type="number"
+                            id="fromTemp"
+                            placeholder="Enter Temperature">
+                        <select id="fromUnit">
+                            <option value="celsius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                    <button id="swapBtn">
+                        <i class="fas fa-repeat"></i>
+                    </button>
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="toTemp"
+                            placeholder="Result"
+                            readonly>
+                        <select id="toUnit">
+                            <option value="celsius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                    <p id="message"></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

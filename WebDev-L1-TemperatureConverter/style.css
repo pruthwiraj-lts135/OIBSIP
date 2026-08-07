@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*body*/
+body{
+    font-family:'Poppins',sans-serif;
+    background: url("background.png") no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+/*Overlay*/
+.overlay{
+    width:100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main Container*/
+.container{
+    width: min(100% ,700px);
+    text-align: center;
+}
+
+/*Logo*/
+.logo{
+    font-family: 'Orbitron',sans-serif;
+    font-size: clamp(1rem,6vw,3.5rem);
+    font-weight: 700;
+    background: linear-gradient(90deg,#ff6b6b,#ff9f43,#ff4d9d,#7c4dff,#00d4ff);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.575);
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px rgba(255,107,107,0.25),0 0 15px rgba(0,212,255,0.2);
+}
+.tagline{
+    text-decoration: wavy;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 200;
+    font-size: clamp(0.75rem, 3.5vw, 2rem);
+    background: white;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+.input-group{
+    display:flex;    
+    gap: 10px;
+}
+.input-group input{
+    flex: 1;
+    height: clamp(40px, 2vh ,52px);
+    padding: clamp(10px, 1vh, 35px);
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: clamp(10px, 1vw ,18px);
+}
+.input-group select{
+    width: 140px;
+    padding: clamp(10px, 1vh, 35px);
+    height: clamp(40px, 2vh ,52px);
+    border-radius: 12px;
+    font-size: clamp(8px, 1vw, 16px);
+}
+.converter-card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: clamp(15px, 1vh, 52px);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 5px 10px;
+}
+.converter-card button{
+    width: 100%;
+    padding: 10px 16px
+    align-self: center;
+    font-size: clamp(14px, 2.5vw, 17px);
+}
+.converter-card p{
+    color: white;
+    font-size: clamp(0.35rem, 3.5vw, 1.7rem);
+}
+/*@media(max-width:768px){
+    .logo{
+        font-size: 2rem;
+    }
+    .tagline{
+        font-size: 1.5rem;
+    }
+    .input-group{
+        width:5.20833333333%;
+        padding: 0 0.65105;
+    }
+    .input-group input{
+        padding: 10%;
+        font-size:1.3020833333%; 
+        align-content: center;
+    }
+    .input-group select{
+        padding: 10%;
+        font-size: 1.171875%;
+        align-content: center;
+    }
+}*/
