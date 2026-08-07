@@ -151,7 +151,7 @@ nav ul li a:hover{
     flex-direction: column;
     vertical-align: top;
     width: 250px;
-    min-height: 300px;
+    min-height: 400px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .card:hover{
