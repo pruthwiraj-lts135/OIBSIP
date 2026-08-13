@@ -146,6 +146,7 @@ section > .contact-container{
 .logo{
     font-family: var(--heading-font);
     justify-content: center;
+    padding-left: clamp(1.0rem, 4vw, 1.7rem);
     align-items: center;
     font-size: clamp(1.15rem, 2.2vw, 1.8rem);
     font-weight: 600;
